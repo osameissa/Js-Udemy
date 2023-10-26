@@ -1,4 +1,8 @@
-const now = 2037;
-const ageJonas = now - 1991;
-const ageSarah = now - 2018;
-console.log(now - 1991 > now - 2018);
+const massMark = 78;
+const heightMark = 169;
+const massJohn = 92;
+const heightJohn = 195;
+
+let BMIMark = massMark / (heightMark * heightMark);
+let BMIJohn = massJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
