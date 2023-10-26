@@ -6,3 +6,6 @@ const heightJohn = 195;
 let BMIMark = massMark / (heightMark * heightMark);
 let BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log(BMIMark, BMIJohn);
+
+let markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI);
