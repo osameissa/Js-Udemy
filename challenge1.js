@@ -8,4 +8,5 @@ let BMIJohn = massJohn / (heightJohn * heightJohn);
 console.log(BMIMark, BMIJohn);
 
 let markHigherBMI = BMIMark > BMIJohn;
+console.log(typeof markHigherBMI);
 console.log(markHigherBMI);
