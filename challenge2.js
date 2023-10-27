@@ -2,10 +2,9 @@ const massMark = 78;
 const heightMark = 1.69;
 const massJohn = 92;
 const heightJohn = 1.95;
-
-let BMIMark = massMark / (heightMark * heightMark);
-let BMIJohn = massJohn / (heightJohn * heightJohn);
-let higherBMI = BMIMark > BMIJohn;
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const higherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn);
 
 if (higherBMI) {
