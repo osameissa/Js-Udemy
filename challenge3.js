@@ -10,5 +10,22 @@ team only wins if it has a higher score than the other team, and the same time a
 4. Bonus2:Minimumscorealsoappliestoadraw!Soadrawonlyhappenswhen both teams have the same score and both have a score greater or equal 100 points. Otherwise, no team wins the trophy
 Test data:
 § Data 1: Dolphins score 96, 108 and 89. Koalas score 88, 91 and 110
-§ Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123 § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
+§ Data Bonus 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123 
+§ Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 */
+
+const totalDolphins = Number(69) + Number(108) + Number(89);
+const scoreDolphins = totalDolphins / 3;
+const totalKoalas = Number(88) + Number(91) + Number(110);
+const scoreKoalas = totalKoalas / 3;
+
+console.log(`Dolphins average score: ${scoreDolphins}
+Koalas average score: ${scoreKoalas}`);
+
+if (scoreDolphins === scoreKoalas) {
+    console.log("Both win the trophy");
+} else if (scoreDolphins > scoreKoalas) {
+    console.log("Dolphins win the trophy");
+} else {
+    console.log("Koalas win the trophy");
+}
