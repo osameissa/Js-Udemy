@@ -6,4 +6,4 @@ Your tasks:
 Test data:
 § Data 1: Test for bill values 275, 40 and 430 Hints:
 § To calculate 20% of a value, simply multiply it by 20/100 = 0.2 § Value X is between 50 and 300, if it's>= 50 && <= 300😉
-/*
+*/
