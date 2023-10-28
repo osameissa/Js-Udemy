@@ -34,9 +34,9 @@ console.log(favourite);
 if (favourite === 23) {
     console.log("Nice, 23!");
 } else if(favourite === 7) {
-    console.log("Nice, 7!")
+    console.log("Nice, 7!");
 } else {
-    console.log("Number is neither 7 or 23.")
+    console.log("Number is neither 7 or 23.");
 }
 
-if (favourite !== 23) console.log("Why not 23?")
+if (favourite !== 23) console.log("Why not 23?");
