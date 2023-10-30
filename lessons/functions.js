@@ -1,5 +1,5 @@
 "use strict";
-/*
+
 // DRY code: dont repeat yourself.
 
 function logger() {
@@ -48,15 +48,15 @@ const age3 = calcAge3(2000);
 
 console.log(age1, age2, age3);
 
-const yearsUntilRetirement = (birthYear, firstName) => {
+const yearsUntilRetirement2 = (birthYear, firstName) => {
     const age = 2042 - birthYear;
     const retirement = 65 - age;
     // return retirment;
     return `${firstName} retires in ${retirement} years`;
 }
 
-console.log(yearsUntilRetirement(1991, 'Alice'));
-console.log(yearsUntilRetirement(2000, 'Bob'));
+console.log(yearsUntilRetirement2(1991, 'Alice'));
+console.log(yearsUntilRetirement2(2000, 'Bob'));
 
 
 
@@ -75,7 +75,7 @@ function fruitProcessor(apples, oranges) {
 
 console.log(fruitProcessor(2, 4));
 
-*/
+
 const calcAge = function(birthYear) {
     return 2042 - birthYear;
 }
