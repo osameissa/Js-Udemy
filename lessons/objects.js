@@ -38,10 +38,10 @@ if(bobObject[whatWant]) {
     console.log('False property');
 }
 
-bobObject.location = 'Send me location';
-bobOject['x'] = '@elonmusk;'
-console.log(bobObject);
+bobArray.location = 'Send me location';
+bobArray['x'] = '@elonmusk;'
+console.log(bobArray);
 
 // Challenge
 // Bob has 3 friends, and his best friend is Michael, no hardcoding!'
-console.log(`${bobObject.firstName}`)
+console.log(`${bobObject.firstName} has ${bobObject.friends.length} friends 😃 His best friend is: ${bobObject.friends[0]}`);
