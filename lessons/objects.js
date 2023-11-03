@@ -28,7 +28,7 @@ const nameKey = 'Name' ;
 console.log(bobObject['first' + nameKey]);
 console.log(bobObject['last' + nameKey]);
 
-// prompts window, requires input & logs value of property
+/* prompts window, requires input & logs value of property
 const whatWant = prompt('What do you want to know?');
 console.log(whatWant);
 
@@ -36,7 +36,8 @@ if(bobObject[whatWant]) {
     console.log(bobObject[whatWant]);
 } else {
     console.log('False property');
-}
+} 
+*/
 
 bobArray.location = 'Send me location';
 bobArray['x'] = '@elonmusk;'
