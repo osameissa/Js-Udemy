@@ -43,3 +43,5 @@ bobOject['x'] = '@elonmusk;'
 console.log(bobObject);
 
 // Challenge
+// Bob has 3 friends, and his best friend is Michael, no hardcoding!'
+console.log(`${bobObject.firstName}`)
