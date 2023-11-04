@@ -10,3 +10,6 @@ const bob = {
         return 2042 - birthYear;
     }
 };
+
+console.log(bob.calcAge(2000));
+console.log(bob['calcAge'](2000));
