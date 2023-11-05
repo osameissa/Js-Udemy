@@ -33,4 +33,3 @@ console.log(bob.calcAge());
 // retrieving the age property of object
 console.log(bob.age);
 console.log(bob.getSummary());
-
