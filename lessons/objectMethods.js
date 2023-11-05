@@ -20,6 +20,10 @@ const bob = {
     calcAge: function () {
         this.age = 2042 - this.birthYear;
         return this.age;
+    },
+
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()}-year old ${bob.job}`
     }
 };
 
@@ -31,3 +35,6 @@ console.log(bob.age);
 console.log(bob.age);
 
 // challenge
+// "Alice is a 77-year old teacher, and has a driving license. "
+console.log(bob.getSummary());
+
