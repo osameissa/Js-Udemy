@@ -18,10 +18,13 @@ const bob = {
     } */
 
     calcAge: function () {
-        
+        this.age = 2042 - this.birthYear;
+        return this.age;
     }
 };
 
 console.log(bob.calcAge());
-console.log(bob.calcAge());
-console.log(bob.calcAge());
+
+console.log(bob.age);
+console.log(bob.age);
+
