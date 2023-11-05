@@ -26,6 +26,8 @@ const bob = {
 // only need to calculate age once
 console.log(bob.calcAge());
 
-// consoling out age property of object
+// retrieving the age property of object
 console.log(bob.age);
 console.log(bob.age);
+
+// challenge
