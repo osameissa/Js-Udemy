@@ -22,10 +22,10 @@ const bob = {
         return this.age;
     }
 };
+
 // only need to calculate age once
 console.log(bob.calcAge());
 
 // consoling out age property of object
 console.log(bob.age);
 console.log(bob.age);
-
