@@ -21,7 +21,7 @@ const bob = {
         this.age = 2042 - this.birthYear;
         return this.age;
     },
-
+    // property
     getSummary: function () {
         return `${this.firstName} is a ${this.calcAge()}-year old ${bob.job} and he/she has ${this.hasDriversLicense ? 'a' : 'no'} driver's license.`
     }
