@@ -7,9 +7,9 @@ console.log(`Dolphins average score: ${scoreDolphins}
 Koalas average score: ${scoreKoalas}`);
 
 if (scoreDolphins === scoreKoalas) {
-    console.log("Both win the trophy");
+  console.log("Both win the trophy");
 } else if (scoreDolphins > scoreKoalas) {
-    console.log("Dolphins win the trophy");
+  console.log("Dolphins win the trophy");
 } else {
-    console.log("Koalas win the trophy");
+  console.log("Koalas win the trophy");
 }
