@@ -1,6 +1,6 @@
 // Must be first line of code for strict mode to work!
 // more safe mode, forbids some functions & adds visible errors
-"use strict"; 
+"use strict";
 
 let hasDriversLicense = false;
 const passTest = true;

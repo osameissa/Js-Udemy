@@ -6,7 +6,7 @@ Not: inverts boolean value
 
 const hasLicense = true; // A
 const hasGoodvision = true; //B
-const isTired= false; // C
+const isTired = false; // C
 
 // && operator
 console.log(`And-operator: ${hasLicense && hasGoodvision}`);
@@ -17,8 +17,8 @@ console.log(`Not-operator: ${!hasLicense}`);
 
 console.log(hasLicense && hasGoodvision && isTired);
 
-if(hasLicense && hasGoodvision && !isTired) {
-    console.log("Alice is able to drive!");
+if (hasLicense && hasGoodvision && !isTired) {
+  console.log("Alice is able to drive!");
 } else {
-    console.log("Someone else should drive...");
+  console.log("Someone else should drive...");
 }

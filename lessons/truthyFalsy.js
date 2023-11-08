@@ -6,18 +6,18 @@ console.log(Boolean(null));
 console.log(Boolean(NaN));
 
 const money = 0;
-if(money) {
-    log("Don't spend it all.")
+if (money) {
+  log("Don't spend it all.");
 } else {
-    console.log("You should get a job.")
+  console.log("You should get a job.");
 }
 
 // Will be false if height = 0, since "0" is undefined
 let height = 0;
-if(height) {
-    console.log("Height is defined.");
+if (height) {
+  console.log("Height is defined.");
 } else {
-    console.log("Height is undefined.");
+  console.log("Height is undefined.");
 }
 
 // Is age 18?
@@ -32,11 +32,11 @@ const favourite = Number(prompt("What's your favorite number?"));
 console.log(favourite);
 
 if (favourite === 23) {
-    console.log("Nice, 23!");
-} else if(favourite === 7) {
-    console.log("Nice, 7!");
+  console.log("Nice, 23!");
+} else if (favourite === 7) {
+  console.log("Nice, 7!");
 } else {
-    console.log("Number is neither 7 or 23.");
+  console.log("Number is neither 7 or 23.");
 }
 
 if (favourite !== 23) console.log("Why not 23?");
