@@ -1,4 +1,4 @@
-const bob = [ 
+const bob = [
   "Bob",
   "Bobsson",
   2042 - 1954,
