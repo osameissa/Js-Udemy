@@ -1,4 +1,4 @@
-// strict mode, limits 
+// strict mode, limits functions
 'use strict';
 
 const secretNumber = Math.trunc(Math.random() * 20) + 1;
