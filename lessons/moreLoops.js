@@ -1,4 +1,3 @@
-
 const bob = [
   "Bob",
   "Bobsson",
